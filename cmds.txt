@@ -1,0 +1,31 @@
+Create a fresh venv in Python 3.12:
+
+
+py -3.12 -m venv .venv
+Activate it:
+
+
+.venv\Scripts\activate
+Upgrade pip first (important so it picks the right wheel):
+
+
+python -m pip install --upgrade pip
+Install your packages:
+
+
+pip install pydantic==2.11.7
+pip install agents openai
+
+
+
+dir .venv\Lib\site-packages\pydantic_core\_pydantic_core.*
+It should say:
+
+
+_pydantic_core.cp312-win_amd64.pyd
+
+:: 3. Set your Gemini API key (replace YOUR_KEY with the real one)
+set GEMINI_API_KEY=AIzaSyBM5RYQmoeMuqWex2xCjmQP20ZSnvG6OIU
+
+:: 4. Run your Python script
+python your_script_name.py
