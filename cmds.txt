@@ -25,7 +25,7 @@ It should say:
 _pydantic_core.cp312-win_amd64.pyd
 
 :: 3. Set your Gemini API key (replace YOUR_KEY with the real one)
-set GEMINI_API_KEY=AIzaSyBM5RYQmoeMuqWex2xCjmQP20ZSnvG6OIU
+set GEMINI_API_KEY=
 
 :: 4. Run your Python script
 python your_script_name.py
